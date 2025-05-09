@@ -7,7 +7,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class MyLock {
     private Lock lock = new ReentrantLock();
 
-    //需要参与同步的方法
+    //需要参与同步的方法.
     public void method(Thread thread) throws InterruptedException {
 //        lock.lock();
 //        try {
